@@ -1,5 +1,5 @@
 {
-	"name": "inkwell/events",
+	"name": "dotink/inkwell-events",
 	"description": "The inKWell event components",
 	"keywords": ["events"],
 	"license": "AGPL-3.0",
