@@ -11,7 +11,7 @@
 		 *
 		 * @see Emitter::emit()
 		 */
-		public function trigger($event, Array $data, EmitterInterface $context)
+		public function trigger($event, Array $data, EmitterInterface $context = NULL)
 		{
 			return $this->emit($event, $data, $context);
 		}
