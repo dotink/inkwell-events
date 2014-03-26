@@ -1,0 +1,28 @@
+{
+	"name": "inkwell/events",
+	"description": "The inKWell event components",
+	"keywords": ["events"],
+	"license": "AGPL-3.0",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name":  "Matthew J. Sahagian",
+			"email": "matt@imarc.net",
+			"role":  "Lead Architect / Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.dotink.org"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"dotink/inkwell-core": "dev-master",
+		"dotink/flourish-core": "dev-master"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
