@@ -1,1 +1,2 @@
-# The inKWell Framework
+Event management and emission for inKWell
+============
